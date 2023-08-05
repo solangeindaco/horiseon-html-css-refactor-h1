@@ -9,7 +9,8 @@ I deployed this repository to learn about HTML, CSS and Github. The basic code f
 
 ## Installation
 
-N/A
+Repository URL: https://github.com/solangeindaco/horiseon-html-css-refactor-h1  
+Website URL:  https://solangeindaco.github.io/horiseon-html-css-refactor-h1/  
 
 ## Usage
 
