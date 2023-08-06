@@ -1,30 +1,55 @@
+/* Style all elements */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Style of Links*/
+
+a {
+    /* Uses hex codes to define color */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Style of paragraphs*/
+
+p {
+    /* Sets font size of every paragraph */
+    font-size: 16px;
+}
+
 /*Style body*/
 
 body {
+    /* Sets the background color */
     background-color: #d9dcd6;
 }
+
+
 
 /*Style of the header*/
 
 header {
+    /* Sets the padding of the header*/
     padding: 20px;
+    /* Font-family property specifies a list of fonts to be used in order of priority in the header*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Sets the background color of the header*/
     background-color: #2a607c;
     color: #ffffff;
 }
 
 header h1 {
     display: inline-block;
+    /* Sets font size */
     font-size: 48px;
 }
 
 header h1 .seo {
+    /* Sets font color */
     color: #d9dcd6;
 }
 
@@ -32,6 +57,7 @@ header h1 .seo {
 
 nav {
     padding-top: 15px;
+     /* Sets the margin right of the navigation bar to 20px*/
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -44,22 +70,17 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    /* Sets the margin left of each link of the navigation bar*/
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
-/*Style of main image*/
-.meeting {
+/*Style of main image, I changed the class to be an ID because style only one element*/
+#meeting {
+    /*Sets the height and width of the section */
     height: 800px;
     width: 100%;
+    /*Sets the margin at the bottom of the image */
     margin-bottom: 25px;
     background-position: center;
 }
@@ -77,6 +98,7 @@ p {
 /*Style of the content*/
 
 .content {
+    /*Sets the width of the content to be 75% of its container*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -135,6 +157,7 @@ footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*The text in the footer is align to the center*/
     text-align: center;
 }
 
