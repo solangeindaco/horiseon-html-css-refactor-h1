@@ -2,10 +2,10 @@
 
 ## Description
 
-I deployed this repository to learn about HTML, CSS and Github. The basic code for the website was provided by a Bootcamp course. I refactor it to improve it accesibility.
-
-- What problem does it solve?
-- What did you learn?
+I deployed this repository to learn about HTML, CSS and Github. The basic code for the website was provided by a Bootcamp course. I refactor it to improve its accesibility.
+I learn:
+    - how to struture an website using the following tags: <header>, <nav>,<main>, <aside>, <footer>
+    - How to use semantic html tag to make the website more accessible.
 
 ## Installation
 
