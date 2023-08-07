@@ -86,6 +86,7 @@ nav ul li {
     width: 100%;
     /*Sets the margin at the bottom of the image */
     margin-bottom: 25px;
+    /*Sets the background position of the image*/
     background-position: center;
 }
 
