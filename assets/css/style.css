@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    /*Applies the padding 0 to all four sides*/
     padding: 0;
     margin: 0;
 }
@@ -33,7 +34,7 @@ body {
 /*Style of the header*/
 
 header {
-    /* Sets the padding of the header*/
+    /* Sets the padding of the header to all four sides*/
     padding: 20px;
     /* Font-family property specifies a list of fonts to be used in order of priority in the header*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,7 +43,9 @@ header {
     color: #ffffff;
 }
 
+/*Style the h1 on the header*/
 header h1 {
+    /*Sets the heading 1 in the header to be in the same line*/
     display: inline-block;
     /* Sets font size */
     font-size: 48px;
@@ -63,12 +66,13 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*The elements in list inside the navigtion bar will not have any marker*/
 nav ul {
     list-style-type: none;
 }
-
+/*Style tje of the navigation bar*/
 nav ul li {
+    /*Set the links on the navigayion bar to be in the same line */
     display: inline-block;
     /* Sets the margin left of each link of the navigation bar*/
     margin-left: 25px;
@@ -86,11 +90,13 @@ nav ul li {
 }
 
 .float-left {
+    /*Places the element on the left of its container*/
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /*Places the element on the right of its container*/
     float: right;
     margin-left: 25px;
 }
@@ -100,7 +106,9 @@ nav ul li {
 .content {
     /*Sets the width of the content to be 75% of its container*/
     width: 75%;
+    /*Sets the element to be in the same line with the with specified above*/
     display: inline-block;
+    /*Sets margin left of the element with class content*/
     margin-left: 20px;
 }
 
@@ -112,11 +120,11 @@ nav ul li {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Style images inside the divs inside content class */
 .content div img{
     max-height: 200px;
 }
-
+/*Style heading 2 inside the divs inside the content class */
 .content div h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -125,28 +133,35 @@ nav ul li {
 /*Style side bar */
 
 aside {
+    /*Set the margin on the right of the side bar */
     margin-right: 20px;
     padding: 20px;
     clear: both;
+    /*Places side bar on the left it container*/
     float: right;
+    /*Set the with of the side bar to ocuppied only the 20% of its container's width*/
     width: 20%;
+    /*Set the height of the side bar to ocuppied the 20% of its container's height */
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/*Style divs inside the side bar */
 aside div {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Style heading 3 inside the divs inside the side bar */
 aside div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Style images inside the divs inside the side bar */
 aside div img {
+    /*Set the image to start in a new line and take all the width of the <div> element*/
     display: block;
+    /* Sets top and bottom margin to 10px. Center the image inside de div */
     margin: 10px auto;
     max-width: 150px;
 }
@@ -160,6 +175,8 @@ footer {
     /*The text in the footer is align to the center*/
     text-align: center;
 }
+
+/*Style the heading 4 of the footer*/
 
 footer h4 {
     font-size: 20px;
