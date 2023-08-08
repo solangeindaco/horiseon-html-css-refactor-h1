@@ -4,6 +4,7 @@
     box-sizing: border-box;
     /*Applies the padding 0 to all four sides*/
     padding: 0;
+    /*Applies margin 0 to all four sides*/
     margin: 0;
 }
 
@@ -113,7 +114,9 @@ nav ul li {
     margin-left: 20px;
 }
 
-.content div{
+/*Style of "search-engine-optimization" class, "online-reputation-management" class and "social-media-marketing" class */
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -121,19 +124,20 @@ nav ul li {
     background-color: #0072bb;
     color: #ffffff;
 }
-/*Style images inside the divs inside content class */
-.content div img{
+
+/*Style images inside "search-engine-optimization" class, "online-reputation-management" class and "social-media-marketing" class */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-/*Style heading 2 inside the divs inside the content class */
-.content div h2 {
+
+/*Style headings #2 inside "search-engine-optimization" class, "online-reputation-management" class and "social-media-marketing" class */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*Style side bar */
-
-aside {
+/*Style side bar with the class benefits */
+.benefits {
     /*Set the margin on the right of the side bar */
     margin-right: 20px;
     padding: 20px;
@@ -148,18 +152,18 @@ aside {
     background-color: #2589bd;
 }
 
-/*Style divs inside the side bar */
-aside div {
+/*Style divs inside the side bar with class benefits */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*Style heading 3 inside the divs inside the side bar */
-aside div h3 {
+/*Style heading 3 inside the divs inside the side bar with the class benefits */
+.benefit-lead h3,.benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*Style images inside the divs inside the side bar */
-aside div img {
+/*Style images inside the divs inside the side bar with class benefits */
+.benefit-lead img, .benefit-brand img, .benefit-cost img{
     /*Set the image to start in a new line and take all the width of the <div> element*/
     display: block;
     /* Sets top and bottom margin to 10px. Center the image inside de div */
