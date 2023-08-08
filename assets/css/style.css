@@ -1,6 +1,7 @@
 /* Style all elements */
 
 * {
+    /*the padding and border of the element are included in the width and height*/
     box-sizing: border-box;
     /*Applies the padding 0 to all four sides*/
     padding: 0;
@@ -13,6 +14,7 @@
 a {
     /* Uses hex codes to define color */
     color: #ffffff;
+    /* the link will not have a decorative line*/
     text-decoration: none;
 }
 
@@ -60,9 +62,11 @@ header h1 .seo {
 /*Style of the navigation bar*/
 
 nav {
+    /* Sets the padding-top of the navigation bar to 15px*/
     padding-top: 15px;
      /* Sets the margin right of the navigation bar to 20px*/
     margin-right: 20px;
+    /*Set that the navigation bar floats to the right of the header*/
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -75,46 +79,50 @@ nav ul {
 nav ul li {
     /*Set the links on the navigayion bar to be in the same line */
     display: inline-block;
-    /* Sets the margin left of each link of the navigation bar*/
+    /* Sets the margin left of each link of the navigation bar */
     margin-left: 25px;
 }
 
 
-/*Style of main image, I changed the class to be an ID because style only one element*/
+/*Style of main image, I changed the class to be an ID because style only one element */
 #meeting {
     /*Sets the height and width of the section */
     height: 800px;
     width: 100%;
     /*Sets the margin at the bottom of the image */
     margin-bottom: 25px;
-    /*Sets the background position of the image*/
+    /*Sets the background position of the image */
     background-position: center;
 }
 
+/*The elements with this class will be positioned on the left side of its container with a right margin of 15px */
+
 .float-left {
-    /*Places the element on the left of its container*/
+    /*Places the element on the left of its container */
     float: left;
     margin-right: 25px;
 }
 
+/*The elements with this class will be positioned on the left side of its container with a right margin of 15px */
+
 .float-right {
-    /*Places the element on the right of its container*/
+    /*Places the element on the right of its container */
     float: right;
     margin-left: 25px;
 }
 
-/*Style of the content*/
+/*Style of class content*/
 
 .content {
-    /*Sets the width of the content to be 75% of its container*/
+    /*Sets the width of the content to be 75% of its container */
     width: 75%;
-    /*Sets the element to be in the same line with the with specified above*/
+    /*Sets the element to be in the same line with the with specified above */
     display: inline-block;
-    /*Sets margin left of the element with class content*/
+    /*Sets margin left of the element with class content */
     margin-left: 20px;
 }
 
-/*Style of "search-engine-optimization" class, "online-reputation-management" class and "social-media-marketing" class */
+/*Style of css classes :"search-engine-optimization", "online-reputation-management" and "social-media-marketing" */
 
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
@@ -125,18 +133,18 @@ nav ul li {
     color: #ffffff;
 }
 
-/*Style images inside "search-engine-optimization" class, "online-reputation-management" class and "social-media-marketing" class */
+/*Style images inside the css classes : "search-engine-optimization", "online-reputation-management" and "social-media-marketing" */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-/*Style headings #2 inside "search-engine-optimization" class, "online-reputation-management" class and "social-media-marketing" class */
+/*Style headings #2 inside the css classes : "search-engine-optimization", "online-reputation-management" and "social-media-marketing" */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*Style side bar with the class benefits */
+/*Style of the elementes with the class benefits */
 .benefits {
     /*Set the margin on the right of the side bar */
     margin-right: 20px;
@@ -152,36 +160,40 @@ nav ul li {
     background-color: #2589bd;
 }
 
-/*Style divs inside the side bar with class benefits */
+/*Style the element with the classes: benefit-lead, benefit-brand, benefit-cost */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*Style heading 3 inside the divs inside the side bar with the class benefits */
+/*Style heading 3 inside the elements with the classes: benefit-lead, benefit-brand, benefit-cost  */
 .benefit-lead h3,.benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
+    /* Sets heaging 3 to be align to the center */
     text-align: center;
 }
-/*Style images inside the divs inside the side bar with class benefits */
+/*Style images inside the the elements with the classes: benefit-lead, benefit-brand, benefit-cost  */
 .benefit-lead img, .benefit-brand img, .benefit-cost img{
     /*Set the image to start in a new line and take all the width of the <div> element*/
     display: block;
     /* Sets top and bottom margin to 10px. Center the image inside de div */
     margin: 10px auto;
+    /* Sets the maximun width of the image to be 150px */
     max-width: 150px;
 }
 
 /*Style of the footer*/
 
 footer {
+    /* Set the padding of the footer to be 30px" */
     padding: 30px;
+    /* The footer is not pushed below left or right floated elements. This is default */
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /*The text in the footer is align to the center*/
     text-align: center;
 }
 
-/*Style the heading 4 of the footer*/
+/*Style the heading 4 of the footer */
 
 footer h4 {
     font-size: 20px;
