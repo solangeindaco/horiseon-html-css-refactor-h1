@@ -37,7 +37,7 @@ body {
 /*Style of the header*/
 
 header {
-    /* Sets the padding of the header to all four sides*/
+    /* Sets the padding of the header to all four sides to be 20px*/
     padding: 20px;
     /* Font-family property specifies a list of fonts to be used in order of priority in the header*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +49,7 @@ header {
 
 /*Style the h1 on the header*/
 header h1 {
-    /*Sets the heading 1 in the header to be in the same line*/
+    /*Sets the heading 1 in the header to be in the same line, allows to set a width and height of the header repecting bottom margins/paddings*/
     display: inline-block;
     /* Sets font size */
     font-size: 48px;
@@ -78,9 +78,9 @@ nav {
 nav ul {
     list-style-type: none;
 }
-/*Style tje of the navigation bar*/
+/*Style the items in the unordered list in the of the navigation bar*/
 nav ul li {
-    /*Set the links on the navigayion bar to be in the same line */
+    /*Set the links on the navigation bar to be in the same line */
     display: inline-block;
     /* Sets the margin left of each link of the navigation bar */
     margin-left: 25px;
@@ -89,7 +89,7 @@ nav ul li {
 
 /*Style of main image, I changed the class to be an ID because style only one element */
 #meeting {
-    /*Sets the height and width of the section */
+    /*Sets the height and width of the image */
     height: 800px;
     width: 100%;
     /*Sets the margin at the bottom of the image */
@@ -98,7 +98,7 @@ nav ul li {
     background-position: center;
 }
 
-/*The elements with this class will be positioned on the left side of its container with a right margin of 15px */
+/*The elements with this class will be positioned on the left side of its container with a right margin of 25px */
 
 .float-left {
     /*Places the element on the left of its container */
@@ -106,7 +106,7 @@ nav ul li {
     margin-right: 25px;
 }
 
-/*The elements with this class will be positioned on the left side of its container with a right margin of 15px */
+/*The elements with this class will be positioned on the left side of its container with a right margin of 25px */
 
 .float-right {
     /*Places the element on the right of its container */
@@ -134,6 +134,7 @@ nav ul li {
     padding: 50px;
      /*Sets the height of the elements with the above css classes to be 300px */
     height: 300px;
+    /*Set a prioritized list of font family names for the navigatin bar, if it doesn't find the first font, it'll try the second font and so on*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      /*Sets the background color of the elements with the above css classes to be blue */
     background-color: #0072bb;
@@ -155,33 +156,37 @@ nav ul li {
     font-size: 36px;
 }
 
-/*Style of the elementes with the class benefits */
+/*Style of the elements with the class benefits */
 .benefits {
-    /*Set the margin on the right of the element with the css class benefits */
+    /*Set the margin on the right of the element with the css class benefits to be 20px*/
     margin-right: 20px;
+    /*Set the padding of the element with the css class benefits to be 20px*/
     padding: 20px;
+    /*Set the element to be moved down to clear past both left and right floats*/
     clear: both;
-    /*Places the element with the above css class left of its container*/
+    /*Places the element with the above css class right of its container*/
     float: right;
-    /*Set the with of the side bar to ocuppied only the 20% of its container's width*/
+    /*Set the width of the element to ocuppied only the 20% of its container's width*/
     width: 20%;
-    /*Set the height of the side bar to ocuppied the 20% of its container's height */
+    /*Set the height of element to ocuppied the 20% of its container's height */
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /*Sets the background color of the element with the above css class to be blue */
     background-color: #2589bd;
 }
 
-/*Style the element with the classes: benefit-lead, benefit-brand, benefit-cost */
+/*Style the elements with the classes: benefit-lead, benefit-brand, benefit-cost */
 .benefit-lead, .benefit-brand, .benefit-cost {
+    /*Set the bottom margin to be 32px of the elements with the above css classes */
     margin-bottom: 32px;
+     /*Sets the font color of the elements with the above css classes to be white */;
     color: #ffffff;
 }
 /*Style heading 3 inside the elements with the classes: benefit-lead, benefit-brand, benefit-cost  */
 .benefit-lead h3,.benefit-brand h3, .benefit-cost h3 {
-    /* Sets the margin bottom of heading #3 of thr css classes listed above to be 10px */
+    /* Sets the margin bottom of heading #3 of the css classes listed above to be 10px */
     margin-bottom: 10px;
-    /* Sets heading #3 to be align to the center */
+    /* Sets heading #3 of the elements with the css class listed above to be align to the center */
     text-align: center;
 }
 /*Style images inside the the elements with the classes: benefit-lead, benefit-brand, benefit-cost  */
@@ -199,8 +204,9 @@ nav ul li {
 footer {
     /* Set the padding of the footer to be 30px" */
     padding: 30px;
-    /* The footer is not pushed below left or right floated elements. This is default */
+    /* The footer is pushed below left or right floated elements*/
     clear: both;
+    /*Set a prioritized list of font family names for the navigatin bar, if it doesn't find the first font, it'll try the second font and so on*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /*The text in the footer is align to the center*/
     text-align: center;
