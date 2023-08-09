@@ -55,6 +55,7 @@ header h1 {
     font-size: 48px;
 }
 
+/*Style the class seo in the heading #1 inside the header*/
 header h1 .seo {
     /* Sets font color */
     color: #d9dcd6;
@@ -67,7 +68,7 @@ nav {
     padding-top: 15px;
      /* Sets the margin right of the navigation bar to 20px*/
     margin-right: 20px;
-    /*Set that the navigation bar floats to the right of the header*/
+    /*Set that the navigation bar floats to the right of its container*/
     float: right;
     /*Set a prioritized list of font family names for the navigatin bar, if it doesn't find the first font, it'll try the second font and so on*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -82,7 +83,7 @@ nav ul {
 nav ul li {
     /*Set the links on the navigation bar to be in the same line */
     display: inline-block;
-    /* Sets the margin left of each link of the navigation bar */
+    /* Sets the margin left of each link of the navigation bar to 25px*/
     margin-left: 25px;
 }
 
@@ -106,7 +107,7 @@ nav ul li {
     margin-right: 25px;
 }
 
-/*The elements with this class will be positioned on the left side of its container with a right margin of 25px */
+/*The elements with this class will be positioned on the right side of its container with a left margin of 25px */
 
 .float-right {
     /*Places the element on the right of its container */
@@ -168,8 +169,9 @@ nav ul li {
     float: right;
     /*Set the width of the element to ocuppied only the 20% of its container's width*/
     width: 20%;
-    /*Set the height of element to ocuppied the 20% of its container's height */
+    /*Set the height of element to ocuppied the 100% of its container's height */
     height: 100%;
+    /*Set a prioritized list of font family names for the navigatin bar, if it doesn't find the first font, it'll try the second font and so on*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /*Sets the background color of the element with the above css class to be blue */
     background-color: #2589bd;
