@@ -25,6 +25,7 @@ The following image shows the web application's appearance and functionality:
 To refactor this website, I used the following tutorials:  
 HTML: https://developer.mozilla.org/en-US/docs/Web/HTML   
 CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
+Github: https://docs.github.com/en
 
 ## License
 
